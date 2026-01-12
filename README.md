@@ -1,103 +1,105 @@
-Projeto de UX/UI – App de Rotina e Hábitos
+📱 Easy Routine — Wireframe de App de Rotinas
+🧠 Contexto do projeto
 
-Wireframe Estruturado + Início de Design System
+Este projeto consiste em um wireframe de um aplicativo de rotinas, pensado para ser prático, intuitivo e rápido de usar no dia a dia.
+A ideia central foi criar uma solução simples para organizar tarefas ao longo do dia, sem sobrecarregar o usuário com muitas decisões ou configurações complexas.
 
-Este repositório documenta o desenvolvimento de um projeto de UX/UI Design focado na criação de um aplicativo de gerenciamento de rotinas e hábitos.
-O projeto foi iniciado como parte dos estudos em UX/UI, mas evoluiu para um estudo aprofundado de arquitetura de interface, componentização e estrutura de produto.
+O foco do app é ajudar o usuário a transicionar facilmente entre manhã, tarde e noite, mantendo o controle das rotinas de forma clara e acessível.
 
-O foco principal não é apenas o visual, mas a construção de uma base sólida, escalável e próxima da realidade de mercado.
+🎯 Objetivo
 
-🧠 Sobre o Projeto
+Criar um aplicativo de rotinas que priorize:
 
-A proposta do app é ajudar o usuário a organizar sua rotina diária (manhã, tarde e noite), criando, editando e acompanhando tarefas de forma simples, direta e sem fricção.
+Facilidade de uso
 
-Desde o início, o projeto foi pensado com mentalidade de produto:
+Navegação rápida
 
-estrutura reutilizável
+Baixa carga cognitiva
 
-componentes organizados
+Boa experiência em telas de smartphone
 
-fluxos claros
+Durante o desenvolvimento, o principal cuidado foi não perder a proposta de praticidade, mesmo ao considerar funcionalidades comuns em apps desse tipo.
 
-e decisões pensadas para escala
+🛠️ O que foi desenvolvido
 
-🎯 Objetivos
+Durante o projeto, trabalhei nos seguintes pontos:
 
-Criar uma experiência clara e intuitiva para gerenciamento de tarefas
+Criação de wireframes de média fidelidade
 
-Estruturar a interface de forma escalável e manutenível
+Definição de fluxos de navegação
 
-Simular a construção de um produto real, não apenas telas isoladas
+Criação e reutilização de componentes
 
-Servir como case de estudo para portfólio
+Uso de ícones para reforçar reconhecimento visual
 
-🏗 Estrutura e Decisões de Design
+Prototipação navegável no Figma
 
-O projeto foi desenvolvido com foco em boas práticas de mercado:
+Organização das rotinas por períodos do dia
 
-Arquitetura de Componentes
+O usuário consegue transicionar entre as rotinas diretamente pela tela de tarefas, facilitando o acompanhamento das atividades ao longo do dia.
 
-Itens de lista estruturados com texto + divisor
+🧩 Decisões de UX e usabilidade
+Transição entre rotinas
 
-Componentes pensados para reutilização
+O app permite que o usuário alterne facilmente entre manhã, tarde e noite diretamente na tela principal de tarefas, reduzindo passos desnecessários e tornando a navegação mais fluida.
 
-Organização de camadas e hierarquia limpa
+Leis de Fitts
 
-Uso consistente de Auto Layout
+Durante o design das interações, apliquei as Leis de Fitts, garantindo:
 
-Escalabilidade
+Áreas de toque adequadas para dispositivos móveis
 
-Estrutura preparada para duplicação e expansão
+Altura mínima de 44px para elementos clicáveis
+Isso melhora a usabilidade e reduz erros de toque.
 
-Pensamento em variantes (estados futuros: hover, pressed, selected)
+❌ Funcionalidade removida: academia
 
-Separação clara entre estrutura e visual (UI sendo aplicada progressivamente)
+Inicialmente, o aplicativo contava com uma opção de academia, já que é uma funcionalidade comum em apps de rotina.
+No entanto, durante a projeção do uso do app, percebi que os tempos definidos para as rotinas não atendiam bem atividades como treino, que exigem maior flexibilidade.
 
-Fluxo do Usuário
+Adicionar essa funcionalidade naquele momento:
 
-Criação de tarefa com campos de atividade, duração e horário
+Fugiria da proposta de rotinas rápidas
 
-Menus de seleção estruturados como componentes
+Aumentaria a complexidade do app
 
-Navegação pensada para reduzir fricção e cliques desnecessários
+Por isso, decidi remover a opção de academia nessa versão.
 
-Organização por períodos do dia (manhã, tarde, noite)
+Também considerei permitir que o usuário definisse tempos personalizados, mas isso entraria em conflito com as heurísticas de Hick, já que múltiplas opções personalizadas poderiam aumentar a carga cognitiva e prejudicar a experiência.
 
-🧩 Estado Atual do Projeto
+🔍 Reflexão e próximos passos
 
-Atualmente o projeto se encontra em fase de:
+Mesmo removendo a opção de academia, percebi que usuários interessados em rotinas geralmente são pessoas ligadas ao autocuidado e bem-estar, e que uma funcionalidade de treinos faria sentido — desde que não comprometesse a proposta principal do app.
 
-Estrutura finalizada
+Por isso, pensei em evoluções futuras:
 
-Componentização em andamento
+🔧 Melhorias planejadas:
 
-Início do Design System
+Ampliar e refinar as opções de rotinas disponíveis
 
-Aplicação progressiva de UI
+Adicionar opções personalizadas de forma controlada
 
-A prioridade foi construir uma base sólida antes de avançar para microinterações e estados visuais.
+Criar uma biblioteca de ícones, permitindo escolher ícones específicos para cada função
 
-🔗 Protótipo Interativo
+Implementar uma tela de progresso, com visualização:
 
-O projeto pode ser navegado diretamente através do protótipo no Figma:
+Semanal
 
-👉 Acessar protótipo interativo:
+Mensal
+
+Anual
+
+Criar uma aba dedicada a treinos na bottom bar, separada das rotinas rápidas
+
+Adicionar uma aba de configurações
+
+Manter o app simples e fluido para transição entre manhã, tarde e noite
+
+A ideia é que a aba de treinos funcione como um módulo separado, integrado ao app, mas sem interferir na experiência principal de rotinas rápidas.
+
+🔗 Prototipagem
+
+O projeto conta com uma prototipagem navegável, desenvolvida no Figma, permitindo visualizar os fluxos principais do aplicativo e a interação entre as telas.
+
+👉 Acesse o protótipo interativo:
 https://www.figma.com/proto/EJtzzYABn4oKxokkBR1eTm/Projeto-Wireframe-de-m%C3%A9dia-fidelidade-Carlos-Eduardo-Souza?page-id=0%3A1&node-id=51-346&viewport=-200%2C99%2C1.23&t=gAQo2EtaL6na7E8g-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=51%3A346&show-proto-sidebar=1
-
-🛠 Ferramentas Utilizadas
-
-Figma – Estruturação, layout, componentização e prototipagem
-
-Auto Layout – Organização e escalabilidade dos componentes
-
-Componentes e Variants – Base para o Design System
-
-👨‍💻 Autor
-
-Carlos Eduardo Souza
-Estudante de UX/UI Design focado em construção de produtos digitais, arquitetura de interface e experiência do usuário.
-
-Observação Final
-
-Este projeto está sendo desenvolvido com foco em qualidade de estrutura, clareza de UX e mentalidade de produto, simulando o processo utilizado em ambientes reais de trabalho.
-Não se trata apenas de um exercício visual, mas de um estudo completo de construção de interface.
