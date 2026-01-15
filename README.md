@@ -1,3 +1,4 @@
+<img width="1163" height="608" alt="image" src="https://github.com/user-attachments/assets/7cf7504e-072e-4492-8091-9bd8c7c9c759" />
 📱 Easy Routine — Wireframe de App de Rotinas
 🧠 Contexto do projeto
 
