@@ -1,145 +1,86 @@
-<h1 align="center">📱 Easy Routine — App de Rotinas</h1> <p align="center"> <strong>Aplicativo mobile focado em rotinas rápidas, baixa carga cognitiva e transições claras entre períodos do dia.</strong> </p>
-🧠 <strong>Visão geral</strong>
+# 📱 Easy Routine
 
-<strong>Easy Routine</strong> é um aplicativo mobile focado na organização de rotinas diárias de forma <strong>simples, rápida e intuitiva</strong>.
-O projeto foi pensado para usuários que desejam manter constância nas atividades do dia sem lidar com excesso de configurações ou decisões complexas.
+> Aplicativo mobile focado em rotinas rápidas, baixa carga cognitiva e transições claras entre períodos do dia.
 
-O app prioriza a <strong>transição fluida entre manhã, tarde e noite</strong>, permitindo que o usuário acompanhe suas tarefas de forma clara e direta.
+---
 
-🎯 <strong>Objetivos do produto</strong>
+## 🧠 Visão geral
+**Easy Routine** é um aplicativo mobile focado na organização de rotinas diárias de forma simples, rápida e intuitiva. 
 
-<strong>Navegação rápida e intuitiva</strong>
+O projeto foi pensado para usuários que desejam manter constância sem lidar com excesso de configurações ou decisões complexas.
 
-<strong>Baixa carga cognitiva</strong>
+## 🎯 Objetivos do produto
+* Navegação rápida e intuitiva
+* Baixa carga cognitiva
+* Clareza visual e consistência
+* Boa usabilidade em telas mobile
+* Redução de fricção no uso diário
 
-<strong>Clareza visual e consistência</strong>
+## 🛠️ Escopo desenvolvido
+* Wireframes de média fidelidade
+* Design visual refinado
+* Prototipação navegável no Figma
+* Componentização completa
+* Estados interativos e microinterações
 
-<strong>Boa usabilidade em telas mobile</strong>
+---
 
-<strong>Redução de fricção no uso diário</strong>
+## 🎨 Design System
 
-Todas as decisões de UX e UI foram tomadas mantendo a <strong>praticidade como valor central</strong>.
+### 🎨 Cores
+Paleta principal com cores base, shades escalonados e estados (default, hover, active, disabled).
 
-🛠️ <strong>Escopo desenvolvido</strong>
+<p align="center">
+  <img width="444" height="455" alt="image" src="https://github.com/user-attachments/assets/db3b34de-14ec-4a2f-90df-9b24e9f35410"/>
 
-Wireframes de média fidelidade
+  <br>
+  <em>Paleta de cores e shades</em>
+</p>
 
-Design visual refinado
+### 🧩 Componentes
+Componentes reutilizáveis com variantes, propriedades e padronização de espaçamentos.
 
-Prototipação navegável no Figma
+<p align="center">
+  <img width="744" height="497" alt="image" src="https://github.com/user-attachments/assets/c817b72f-8342-4325-a28d-98c657edd23e" />
 
-<strong>Componentização completa</strong>
+  <br>
+  <em>Biblioteca de componentes</em>
+</p>
 
-Estados interativos (<code>hover</code>, <code>press</code>, <code>disabled</code>)
+### 🔠 Tipografia
+Hierarquia tipográfica clara utilizando Text Styles.
 
-Animações e microinterações
+<p align="center">
+  <img width="164" height="250" alt="image" src="https://github.com/user-attachments/assets/0db46af7-7a07-4a56-b394-d51f64e19fbf" />
+  <br>
+  <em>Escala tipográfica</em>
+</p>
 
-Pop-ups e feedbacks visuais
+### 🔲 Ícones
+Sistema de ícones padronizado e consistente.
 
-Organização das rotinas por período do dia
+<p align="center">
+  <img width="327" height="123" alt="image" src="https://github.com/user-attachments/assets/2da5eeb4-ac02-4cce-9832-bcf9c072fb4b" />
+  <br>
+  <em>Sistema de ícones</em>
+</p>
 
-📌 <strong>Status:</strong> Projeto em estágio <strong>pronto para portfólio</strong>, com fluxo funcional e protótipo de alta fidelidade.
+---
 
-🎨 <strong>Design System</strong>
+## 🧠 Decisões de UX
 
-O projeto conta com um <strong>Design System próprio</strong>, criado para garantir consistência visual, escalabilidade e agilidade no desenvolvimento.
+### Transição entre períodos do dia
+Alternância direta entre manhã, tarde e noite na tela principal, mantendo fluxo contínuo.
 
-🎨 <strong>Cores</strong>
+### Lei de Fitts
+* Altura mínima de 44px para áreas clicáveis
+* Distribuição estratégica dos pontos de toque
 
-Paleta principal com cores base e <strong>shades escalonados</strong>
+## ❌ Funcionalidade removida
+A funcionalidade de academia foi removida para manter o foco em rotinas rápidas e evitar sobrecarga cognitiva.
 
-Variações de tonalidade para estados (<code>default</code>, <code>hover</code>, <code>active</code>, <code>disabled</code>)
+## 🔗 Protótipo
+[👉 Acessar protótipo no Figma](https://www.figma.com/proto/EJtzzYABn4oKxokkBR1eTm/Projeto-Wireframe-de-m%C3%A9dia-fidelidade-Carlos-Eduardo-Souza?page-id=0%3A1&node-id=51-346)
 
-Uso consistente de contraste para acessibilidade
-
-Aplicação via <strong>Color Styles</strong>
-
-<p><strong>Paleta de cores e shades</strong></p> <img width="902" height="929" alt="Paleta de cores" src="https://github.com/user-attachments/assets/697656ef-36c3-464a-9067-eb9559a32597" />
-🧩 <strong>Componentes</strong>
-
-Componentes reutilizáveis e escaláveis
-
-<strong>Variantes definidas</strong> (<code>size</code>, <code>state</code>, <code>type</code>)
-
-Uso de <strong>Component Properties</strong>
-
-Padronização de espaçamentos, bordas e comportamentos
-
-<p><strong>Biblioteca de componentes</strong></p> <img width="1535" height="1160" alt="Componentes" src="https://github.com/user-attachments/assets/ff58d9ec-e0df-471b-8b00-2af75a734c39" />
-🔠 <strong>Tipografia</strong>
-
-Fonte principal aplicada via <strong>Text Styles</strong>
-
-Hierarquia clara (<code>title</code>, <code>subtitle</code>, <code>body</code>, <code>labels</code>)
-
-Consistência entre telas e componentes
-
-<p><strong>Escala tipográfica</strong></p> <img width="635" height="941" alt="Tipografia" src="https://github.com/user-attachments/assets/165fc2b5-1226-408d-8059-b7feef95b782" />
-🔲 <strong>Ícones</strong>
-
-Biblioteca de ícones padronizada
-
-Estilo visual consistente
-
-Escala definida (<code>16 / 20 / 24 / 32px</code>)
-
-Variações de tamanho conforme contexto
-
-Ícones como reforço visual, não como dependência única
-
-<p><strong>Sistema de ícones</strong></p> <img width="1207" height="419" alt="Ícones" src="https://github.com/user-attachments/assets/d3d7addc-3b2d-4645-870f-e1654fd1cec7" />
-🧠 <strong>Decisões de UX</strong>
-<strong>Transição entre períodos do dia</strong>
-
-O usuário pode alternar entre <strong>manhã, tarde e noite</strong> diretamente na tela principal, reduzindo passos e mantendo o fluxo contínuo.
-
-<strong>Lei de Fitts</strong>
-
-Elementos clicáveis com altura mínima de <strong>44px</strong>
-
-Áreas de toque bem distribuídas
-
-Maior precisão em dispositivos móveis
-
-❌ <strong>Funcionalidade removida: academia</strong>
-
-A opção de academia foi removida nesta versão após análise de uso, pois:
-
-Exigia tempos mais flexíveis
-
-Aumentava a complexidade
-
-Fugiria da proposta de rotinas rápidas
-
-A personalização total de tempos também foi evitada por conflito com a <strong>Lei de Hick</strong>, que aumentaria a carga cognitiva.
-
-🔮 <strong>Próximos passos</strong>
-
-Expansão controlada das rotinas
-
-Personalizações com limites claros
-
-Biblioteca de ícones personalizáveis
-
-Tela de progresso:
-
-Semanal
-
-Mensal
-
-Anual
-
-Aba dedicada a treinos (módulo separado)
-
-Tela de configurações
-
-Evolução contínua do Design System
-
-📌 A aba de treinos será um <strong>módulo independente</strong>, sem comprometer a experiência principal.
-
-🔗 <strong>Protótipo interativo</strong>
-
-O projeto possui prototipação navegável no Figma, permitindo explorar fluxos, interações e estados do app.
-
-👉 <strong>Acesse o protótipo:</strong>
-https://www.figma.com/proto/EJtzzYABn4oKxokkBR1eTm/Projeto-Wireframe-de-m%C3%A9dia-fidelidade-Carlos-Eduardo-Souza?page-id=0%3A1&node-id=51-346&viewport=-200%2C99%2C1.23&t=gAQo2EtaL6na7E8g-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=51%3A346&show-proto-sidebar=1
+---
+<p align="center">Easy Routine • UX/UI Case Study</p>
