@@ -1,88 +1,127 @@
-<img width="1163" height="608" alt="image" src="https://github.com/user-attachments/assets/7cf7504e-072e-4492-8091-9bd8c7c9c759" />
-📱 Easy Routine — Wireframe de App de Rotinas
-🧠 Contexto do projeto
+<h1 align="center">📱 Easy Routine — App de Rotinas</h1> <p align="center"> <strong>Aplicativo mobile focado em rotinas rápidas, baixa carga cognitiva e transições claras entre períodos do dia.</strong> </p>
+🧠 <strong>Visão geral</strong>
 
-Este projeto consiste em um wireframe de um aplicativo de rotinas, pensado para ser prático, intuitivo e rápido de usar no dia a dia.
-A ideia central foi criar uma solução simples para organizar tarefas ao longo do dia, sem sobrecarregar o usuário com muitas decisões ou configurações complexas.
+<strong>Easy Routine</strong> é um aplicativo mobile focado na organização de rotinas diárias de forma <strong>simples, rápida e intuitiva</strong>.
+O projeto foi pensado para usuários que desejam manter constância nas atividades do dia sem lidar com excesso de configurações ou decisões complexas.
 
-O foco do app é ajudar o usuário a transicionar facilmente entre manhã, tarde e noite, mantendo o controle das rotinas de forma clara e acessível.
+O app prioriza a <strong>transição fluida entre manhã, tarde e noite</strong>, permitindo que o usuário acompanhe suas tarefas de forma clara e direta.
 
-🎯 Objetivo
+🎯 <strong>Objetivos do produto</strong>
 
-Criar um aplicativo de rotinas que priorize:
+<strong>Navegação rápida e intuitiva</strong>
 
-Facilidade de uso
+<strong>Baixa carga cognitiva</strong>
 
-Navegação rápida
+<strong>Clareza visual e consistência</strong>
 
-Baixa carga cognitiva
+<strong>Boa usabilidade em telas mobile</strong>
 
-Boa experiência em telas de smartphone
+<strong>Redução de fricção no uso diário</strong>
 
-Durante o desenvolvimento, o principal cuidado foi não perder a proposta de praticidade, mesmo ao considerar funcionalidades comuns em apps desse tipo.
+Todas as decisões de UX e UI foram tomadas mantendo a <strong>praticidade como valor central</strong>.
 
-🛠️ O que foi desenvolvido
+🛠️ <strong>Escopo desenvolvido</strong>
 
-Durante o projeto, trabalhei nos seguintes pontos:
+Wireframes de média fidelidade
 
-Criação de wireframes de média fidelidade
-
-Definição de fluxos de navegação
-
-Criação e reutilização de componentes
-
-Uso de ícones para reforçar reconhecimento visual
+Design visual refinado
 
 Prototipação navegável no Figma
 
-Organização das rotinas por períodos do dia
+<strong>Componentização completa</strong>
 
-O usuário consegue transicionar entre as rotinas diretamente pela tela de tarefas, facilitando o acompanhamento das atividades ao longo do dia.
+Estados interativos (<code>hover</code>, <code>press</code>, <code>disabled</code>)
 
-🧩 Decisões de UX e usabilidade
-Transição entre rotinas
+Animações e microinterações
 
-O app permite que o usuário alterne facilmente entre manhã, tarde e noite diretamente na tela principal de tarefas, reduzindo passos desnecessários e tornando a navegação mais fluida.
+Pop-ups e feedbacks visuais
 
-Leis de Fitts
+Organização das rotinas por período do dia
 
-Durante o design das interações, apliquei as Leis de Fitts, garantindo:
+📌 <strong>Status:</strong> Projeto em estágio <strong>pronto para portfólio</strong>, com fluxo funcional e protótipo de alta fidelidade.
 
-Áreas de toque adequadas para dispositivos móveis
+🎨 <strong>Design System</strong>
 
-Altura mínima de 44px para elementos clicáveis
-Isso melhora a usabilidade e reduz erros de toque.
+O projeto conta com um <strong>Design System próprio</strong>, criado para garantir consistência visual, escalabilidade e agilidade no desenvolvimento.
 
-❌ Funcionalidade removida: academia
+🎨 <strong>Cores</strong>
 
-Inicialmente, o aplicativo contava com uma opção de academia, já que é uma funcionalidade comum em apps de rotina.
-No entanto, durante a projeção do uso do app, percebi que os tempos definidos para as rotinas não atendiam bem atividades como treino, que exigem maior flexibilidade.
+Paleta principal com cores base e <strong>shades escalonados</strong>
 
-Adicionar essa funcionalidade naquele momento:
+Variações de tonalidade para estados (<code>default</code>, <code>hover</code>, <code>active</code>, <code>disabled</code>)
+
+Uso consistente de contraste para acessibilidade
+
+Aplicação via <strong>Color Styles</strong>
+
+<p><strong>Paleta de cores e shades</strong></p> <img width="902" height="929" alt="Paleta de cores" src="https://github.com/user-attachments/assets/697656ef-36c3-464a-9067-eb9559a32597" />
+🧩 <strong>Componentes</strong>
+
+Componentes reutilizáveis e escaláveis
+
+<strong>Variantes definidas</strong> (<code>size</code>, <code>state</code>, <code>type</code>)
+
+Uso de <strong>Component Properties</strong>
+
+Padronização de espaçamentos, bordas e comportamentos
+
+<p><strong>Biblioteca de componentes</strong></p> <img width="1535" height="1160" alt="Componentes" src="https://github.com/user-attachments/assets/ff58d9ec-e0df-471b-8b00-2af75a734c39" />
+🔠 <strong>Tipografia</strong>
+
+Fonte principal aplicada via <strong>Text Styles</strong>
+
+Hierarquia clara (<code>title</code>, <code>subtitle</code>, <code>body</code>, <code>labels</code>)
+
+Consistência entre telas e componentes
+
+<p><strong>Escala tipográfica</strong></p> <img width="635" height="941" alt="Tipografia" src="https://github.com/user-attachments/assets/165fc2b5-1226-408d-8059-b7feef95b782" />
+🔲 <strong>Ícones</strong>
+
+Biblioteca de ícones padronizada
+
+Estilo visual consistente
+
+Escala definida (<code>16 / 20 / 24 / 32px</code>)
+
+Variações de tamanho conforme contexto
+
+Ícones como reforço visual, não como dependência única
+
+<p><strong>Sistema de ícones</strong></p> <img width="1207" height="419" alt="Ícones" src="https://github.com/user-attachments/assets/d3d7addc-3b2d-4645-870f-e1654fd1cec7" />
+🧠 <strong>Decisões de UX</strong>
+<strong>Transição entre períodos do dia</strong>
+
+O usuário pode alternar entre <strong>manhã, tarde e noite</strong> diretamente na tela principal, reduzindo passos e mantendo o fluxo contínuo.
+
+<strong>Lei de Fitts</strong>
+
+Elementos clicáveis com altura mínima de <strong>44px</strong>
+
+Áreas de toque bem distribuídas
+
+Maior precisão em dispositivos móveis
+
+❌ <strong>Funcionalidade removida: academia</strong>
+
+A opção de academia foi removida nesta versão após análise de uso, pois:
+
+Exigia tempos mais flexíveis
+
+Aumentava a complexidade
 
 Fugiria da proposta de rotinas rápidas
 
-Aumentaria a complexidade do app
+A personalização total de tempos também foi evitada por conflito com a <strong>Lei de Hick</strong>, que aumentaria a carga cognitiva.
 
-Por isso, decidi remover a opção de academia nessa versão.
+🔮 <strong>Próximos passos</strong>
 
-Também considerei permitir que o usuário definisse tempos personalizados, mas isso entraria em conflito com as heurísticas de Hick, já que múltiplas opções personalizadas poderiam aumentar a carga cognitiva e prejudicar a experiência.
+Expansão controlada das rotinas
 
-🔍 Reflexão e próximos passos
+Personalizações com limites claros
 
-Mesmo removendo a opção de academia, percebi que usuários interessados em rotinas geralmente são pessoas ligadas ao autocuidado e bem-estar, e que uma funcionalidade de treinos faria sentido — desde que não comprometesse a proposta principal do app.
+Biblioteca de ícones personalizáveis
 
-Por isso, pensei em evoluções futuras:
-
-🔧 Melhorias planejadas:
-
-Ampliar e refinar as opções de rotinas disponíveis
-
-Adicionar opções personalizadas de forma controlada
-
-Criar uma biblioteca de ícones, permitindo escolher ícones específicos para cada função
-
-Implementar uma tela de progresso, com visualização:
+Tela de progresso:
 
 Semanal
 
@@ -90,17 +129,17 @@ Mensal
 
 Anual
 
-Criar uma aba dedicada a treinos na bottom bar, separada das rotinas rápidas
+Aba dedicada a treinos (módulo separado)
 
-Adicionar uma aba de configurações
+Tela de configurações
 
-Manter o app simples e fluido para transição entre manhã, tarde e noite
+Evolução contínua do Design System
 
-A ideia é que a aba de treinos funcione como um módulo separado, integrado ao app, mas sem interferir na experiência principal de rotinas rápidas.
+📌 A aba de treinos será um <strong>módulo independente</strong>, sem comprometer a experiência principal.
 
-🔗 Prototipagem
+🔗 <strong>Protótipo interativo</strong>
 
-O projeto conta com uma prototipagem navegável, desenvolvida no Figma, permitindo visualizar os fluxos principais do aplicativo e a interação entre as telas.
+O projeto possui prototipação navegável no Figma, permitindo explorar fluxos, interações e estados do app.
 
-👉 Acesse o protótipo interativo:
+👉 <strong>Acesse o protótipo:</strong>
 https://www.figma.com/proto/EJtzzYABn4oKxokkBR1eTm/Projeto-Wireframe-de-m%C3%A9dia-fidelidade-Carlos-Eduardo-Souza?page-id=0%3A1&node-id=51-346&viewport=-200%2C99%2C1.23&t=gAQo2EtaL6na7E8g-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=51%3A346&show-proto-sidebar=1
