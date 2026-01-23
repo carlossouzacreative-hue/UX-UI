@@ -163,5 +163,23 @@ A funcionalidade de academia foi removida para manter o foco em rotinas rápidas
 ## 🔗 Protótipo
 [👉 Acessar protótipo no Figma](https://www.figma.com/proto/EJtzzYABn4oKxokkBR1eTm/Projeto-Wireframe-de-m%C3%A9dia-fidelidade-Carlos-Eduardo-Souza?page-id=0%3A1&node-id=51-346)
 
----
 <p align="center">Easy Routine • UX/UI Case Study</p>
+---
+## ✉️ Contact / Contato
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" style="vertical-align: middle;">
+        <a href="https://www.linkedin.com/in/carlossouzauxui/" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="56" style="border-radius: 5px;">
+        </a>
+      </td>
+      <td align="center" style="vertical-align: middle; padding-left: 15px;">
+        <div style="background-color: #FFFFFF; border: 1px solid #E0E0E0; border-radius: 5px; height: 52px; display: flex; align-items: center; padding: 0 20px;">
+          <code style="color: #333333; font-size: 16px; background: none; border: none; font-family: sans-serif; font-weight: 500;">cse17373@gmail.com</code>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
